@@ -20,7 +20,7 @@ html{
 	float: left;
 	width: 90%;
 }
-.card{
+#card{
 	background: #FFFFFF;
 	height: 120px;
 	width: 120px;
