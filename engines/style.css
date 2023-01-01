@@ -1,44 +1,56 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
-
+*{
+	padding: 0;
+	margin: 0;
+}
 html{
 	background: #F5DEB3;
 	font-family: Montserrat, sans-serif;
 }
 a{
-	text-decoration: none;
-	color: black;
-}
-.header{
-	background: black;
 	color: #FFFFFF;
-	text-align: left;
-	height: 10vw;
+	text-decoration: none;
+	padding: 5px 10px;
+	float: right;
+}
+a:hover{
+	background-color: orange;
+	padding: 5px 10px;
+	color: #000000;
+}
+#barra{
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 10px;
+	height: 40px;
+	margin-bottom: 3px;
+}
+#barra h1{
+	float: left;
+}
+#content{
+	background-color: #FFFFFF;
+	height: auto;
 	padding: 5px;
 }
-.header h1{
+#content p{
 	margin: 10px;
-	font-size: 5vw;
+	font-size: 10pt;
 }
-.main{
-	text-align: center;
-	margin-top: 5px;
-	margin-left: 5px;
-	clear: both;
+#content h2{
+	padding: 5px;
 }
-#card{
-	background: #FFFFFF;
-	box-shadow: 0px 2px 2px 0px;
-	height: 20vw;
-	width: 20vw;
-	border-radius: 12px;
+
+/* inicio bestiario */
+#best-content{
+	align-content: center;
+}
+.card{
+	background-color: #FFFFFF;
+	width: 100px;
+	height: 130px;
 	margin: 5px;
-	float: left;
-	padding: 20px;
-}
-#card img{
-	height: 14vw;
-	width: 14vw;
-}
-#card h3{
-	font-size: 3vw;
+	padding: 5px;
+	border-radius: 10px;
+	display: inline-grid;
 }
